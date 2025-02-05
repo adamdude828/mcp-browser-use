@@ -2,6 +2,8 @@
 
 A MCP server project
 
+<a href="https://glama.ai/mcp/servers/sgcdww166l"><img width="380" height="200" src="https://glama.ai/mcp/servers/sgcdww166l/badge" alt="browser-use server MCP server" /></a>
+
 ## Components
 
 ### Resources
