@@ -1,0 +1,20 @@
+[project]
+name = "mcp-browser-use"
+version = "0.1.0"
+description = "A MCP server project"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [ "mcp>=1.2.1",]
+[[project.authors]]
+name = "Adam Holsinger"
+email = "adamholsinger@gmail.com"
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+mcp-browser-use = "browser_use:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/browser_use"]
